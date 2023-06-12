@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>complete responsive hotel booking website design tutorial</title>
+
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+
+   <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+   
+
+
+<section class="header">
+
+   <div class="flex">
+      <a href="#home" class="logo">Hotels And Resorts</a>
+      <a href="#availability" class="btn">check availability</a>
+      <div id="menu-btn" class="fas fa-bars"></div>
+   </div>
+
+   <nav class="navbar">
+      <a href="#home">home</a>
+      <a href="#about">about</a>
+      <a href="#reservation">reservation</a>
+      <a href="#gallery">gallery</a>
+      <a href="#contact">contact</a>
+      <a href="#reviews">reviews</a>
+   </nav>
+
+</section>
+
+
+
+<section class="home" id="home">
+
+   <div class="swiper home-slider">
+
+      <div class="swiper-wrapper">
+
+         <div class="box swiper-slide">
+            <img src="room 1.avif" alt="">
+            <div class="flex">
+               <h3>luxurious rooms</h3>
+               <a href="#availability" class="btn">check availability</a>
+            </div>
+         </div>
+
+         <div class="box swiper-slide">
+            <img src="room 2.jpeg" alt="">
+            <div class="flex">
+               <h3>foods and drinks</h3>
+               <a href="#reservation" class="btn">make a reservation</a>
+            </div>
+         </div>
+
+         <div class="box swiper-slide">
+            <img src="room 3.jpeg" alt="">
+            <div class="flex">
+               <h3>luxurious halls</h3>
+               <a href="#contact" class="btn">contact us</a>
+            </div>
+         </div>
+
+      </div>
+
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+
+   </div>
+
+</section>
+
+
+
+<section class="availability" id="availability">
+
+   <form action="" method="post">
+      <div class="flex">
+         <div class="box">
+            <p>check in <span>*</span></p>
+            <input type="date" name="check_in" class="input" required>
+         </div>
+         <div class="box">
+            <p>check out <span>*</span></p>
+            <input type="date" name="check_out" class="input" required>
+         </div>
+         <div class="box">
+            <p>adults <span>*</span></p>
+            <select name="adults" class="input" required>
+               <option value="1">1 adult</option>
+               <option value="2">2 adults</option>
+               <option value="3">3 adults</option>
+               <option value="4">4 adults</option>
+               <option value="5">5 adults</option>
+               <option value="6">6 adults</option>
+            </select>
+         </div>
+         <div class="box">
+            <p>childs <span>*</span></p>
+            <select name="childs" class="input" required>
+               <option value="-">0 child</option>
+               <option value="1">1 child</option>
+               <option value="2">2 childs</option>
+               <option value="3">3 childs</option>
+               <option value="4">4 childs</option>
+               <option value="5">5 childs</option>
+               <option value="6">6 childs</option>
+            </select>
+         </div>
+         <div class="box">
+            <p>rooms <span>*</span></p>
+            <select name="rooms" class="input" required>
+               <option value="1">1 room</option>
+               <option value="2">2 rooms</option>
+               <option value="3">3 rooms</option>
+               <option value="4">4 rooms</option>
+               <option value="5">5 rooms</option>
+               <option value="6">6 rooms</option>
+            </select>
+         </div>
+      </div>
+      <input type="submit" value="check availability" name="check" class="btn">
+   </form>
+
+</section>
+
+
+
+<section class="about" id="about">
+
+   <div class="row">
+      <div class="image">
+         <img src="staff.webp" alt="">
+      </div>
+      <div class="content">
+         <h3>best staff</h3>
+         <p>let's us guide and serve you</p>
+         <a href="#reservation" class="btn">make a reservation</a>
+      </div>
+   </div>
+
+   <div class="row revers">
+      <div class="image">
+         <img src="foods.jpeg" alt="">
+      </div>
+      <div class="content">
+         <h3>best foods</h3>
+         <p>order this delicious foods </p>
+         <a href="#contact" class="btn">contact us</a>
+      </div>
+   </div>
+
+   <div class="row">
+      <div class="image">
+         <img src="pool.jpeg" alt="">
+      </div>
+      <div class="content">
+         <h3>swimming pool</h3>
+         <p>there is a limited place , hurry up</p>
+         <a href="#availability" class="btn">check availability</a>
+      </div>
+   </div>
+
+</section>
+
+
+
+<section class="services">
+
+   <div class="box-container">
+
+      <div class="box">
+         <img src="f and d.jpeg" alt="">
+         <h3>food & drinks</h3>
+         <p>enjoy the delicious things we serve </p>
+      </div>
+
+      <div class="box">
+         <img src="dining room out.webp" alt="">
+         <h3>outdoor dining</h3>
+         <p>our service is perfect</p>
+      </div>
+
+      <div class="box">
+         <img src="beach view.jpeg" alt="">
+         <h3>beach view</h3>
+         <p>enjoying the beach on your bedroom</p>
+      </div>
+
+     
+
+      <div class="box">
+         <img src="pool.jpeg" alt="">
+         <h3>swimming pool</h3>
+         <p>the best one </p>
+      </div>
+
+      <div class="box">
+         <img src="b view 1.jpeg" alt="">
+         <h3>resort beach</h3>
+         <p>the beaufill day watching the beach</p>
+      </div>
+
+   </div>
+
+</section>
+
+
+
+<section class="reservation" id="reservation">
+
+   <form action="" method="post">
+      <h3>make a reservation</h3>
+      <div class="flex">
+         <div class="box">
+            <p>check in <span>*</span></p>
+            <input type="date" name="check_in" class="input" required>
+         </div>
+         <div class="box">
+            <p>check out <span>*</span></p>
+            <input type="date" name="check_out" class="input" required>
+         </div>
+         <div class="box">
+            <p>adults <span>*</span></p>
+            <select name="adults" class="input" required>
+               <option value="1">1 adult</option>
+               <option value="2">2 adults</option>
+               <option value="3">3 adults</option>
+               <option value="4">4 adults</option>
+               <option value="5">5 adults</option>
+               <option value="6">6 adults</option>
+            </select>
+         </div>
+         <div class="box">
+            <p>childs <span>*</span></p>
+            <select name="childs" class="input" required>
+               <option value="-">0 child</option>
+               <option value="1">1 child</option>
+               <option value="2">2 childs</option>
+               <option value="3">3 childs</option>
+               <option value="4">4 childs</option>
+               <option value="5">5 childs</option>
+               <option value="6">6 childs</option>
+            </select>
+         </div>
+         <div class="box">
+            <p>rooms <span>*</span></p>
+            <select name="rooms" class="input" required>
+               <option value="1">1 room</option>
+               <option value="2">2 rooms</option>
+               <option value="3">3 rooms</option>
+               <option value="4">4 rooms</option>
+               <option value="5">5 rooms</option>
+               <option value="6">6 rooms</option>
+            </select>
+         </div>
+      </div>
+      <input type="submit" value="check availability" name="check" class="btn">
+   </form>
+
+</section>
+
+
+
+<section class="gallery" id="gallery">
+
+   <div class="swiper gallery-slider">
+      <div class="swiper-wrapper">
+         <img src="img 1.jpeg" class="swiper-slide" alt="">
+         <img src="img 2.jpeg" class="swiper-slide" alt="">
+         <img src="img 3.jpeg" class="swiper-slide" alt="">
+         <img src="img 4.webp" class="swiper-slide" alt="">
+         <img src="img 5.jpeg" class="swiper-slide" alt="">
+         <img src="img 6.webp" class="swiper-slide" alt="">
+      </div>
+      <div class="swiper-pagination"></div>
+   </div>
+
+</section>
+
+
+
+<section class="contact" id="contact">
+
+   <div class="row">
+
+      <form action="" method="post">
+         <h3>send us message</h3>
+         <input type="text" name="name" required maxlength="50" placeholder="enter your name" class="box">
+         <input type="email" name="email" required maxlength="50" placeholder="enter your email" class="box">
+         <input type="number" name="number" required maxlength="10" min="0" max="9999999999" placeholder="enter your number" class="box">
+         <textarea name="msg" class="box" required maxlength="1000" placeholder="enter your message" cols="30" rows="10"></textarea>
+         <input type="submit" value="send message" name="send" class="btn">
+      </form>
+
+      <div class="faq">
+         <h3 class="title">frequently asked questions</h3>
+         <div class="box active">
+            <h3>how to cancel?</h3>
+            <p>contact us 24hr before your reservation day</p>
+         </div>
+         <div class="box">
+            <h3>is there any vacancy?</h3>
+            <p>yes we have some</p>
+         </div>
+         <div class="box">
+            <h3>what are payment methods?</h3>
+            <p>we accept card , cash or email us for more information</p>
+         </div>
+         <div class="box">
+            <h3>how to claim coupons codes?</h3>
+            <p>ask our stuff about it , or email us </p>
+         </div>
+         <div class="box">
+            <h3>what are the age requirements?</h3>
+            <p>we accept everyone, those under 18 must be with their parents</p>
+         </div>
+      </div>
+
+   </div>
+
+</section>
+
+
+
+<section class="reviews" id="reviews">
+
+   <div class="swiper reviews-slider">
+
+      <div class="swiper-wrapper">
+         <div class="swiper-slide box">
+            <img src="review 1.jpeg" alt="">
+            <h3>ibrahim zende</h3>
+            <p>i had the best experience on my life my spending my weekend on this hotel</p>
+         </div>
+         <div class="swiper-slide box">
+            <img src="review 2.jpeg" alt="">
+            <h3>mixon junior</h3>
+            <p>the stuff was amazing and the service was perfect</p>
+         </div>
+         <div class="swiper-slide box">
+            <img src="review 3.jpeg" alt="">
+            <h3>jessica mcharthur</h3>
+            <p>i enjoyed more about the food and the pool</p>
+         </div>
+         <div class="swiper-slide box">
+            <img src="review 4.jpeg" alt="">
+            <h3>valeriane kent</h3>
+            <p>the swimming pool was my favorite and the room was fantastic</p>
+         </div>
+         <div class="swiper-slide box">
+            <img src="review 5.jpeg" alt="">
+            <h3>theo hernandez</h3>
+            <p>i will give the hotel 5 star because everything is perfect.</p>
+         </div>
+         <div class="swiper-slide box">
+            <img src="review 6.jpeg" alt="">
+            <h3>john smith</h3>
+            <p>it's a good place to spend time on family</p>
+         </div>
+      </div>
+
+      <div class="swiper-pagination"></div>
+   </div>
+
+</section>
+
+
+<section class="footer">
+
+   <div class="box-container">
+
+      <div class="box">
+         <a href="tel:1234567890"><i class="fas fa-phone"></i> +123-456-7890</a>
+         <a href="tel:1112223333"><i class="fas fa-phone"></i> +111-222-3333</a>
+         <a href="mailto:zendeibrahim0905@gmail.com"><i class="fas fa-envelope"></i> zendeibrahim0905@gmail.com</a>
+         <a href="#"><i class="fas fa-map-marker-alt"></i> ohio, United States - 45014</a>
+      </div>
+
+      <div class="box">
+         <a href="#home">home</a>
+         <a href="#about">about</a>
+         <a href="#reservation">reservation</a>
+         <a href="#gallery">gallery</a>
+         <a href="#contact">contact</a>
+         <a href="#reviews">reviews</a>
+      </div>
+
+      <div class="box">
+         <a href="#">facebook <i class="fab fa-facebook-f"></i></a>
+         <a href="#">twitter <i class="fab fa-twitter"></i></a>
+         <a href="#">instagram <i class="fab fa-instagram"></i></a>
+         <a href="#">linkedin <i class="fab fa-linkedin"></i></a>
+      </div>
+
+   </div>
+
+   <div class="credit">&copy; copyright @ 2023 by mr.ibrahimzende tech | all rights reseved!</div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+<script src="index.js"></script>
+
+</body>
+</html>
